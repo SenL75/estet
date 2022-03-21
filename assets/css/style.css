@@ -171,8 +171,38 @@ header{
     padding-left: 32px;
 }
 .sec3_con3{
-    padding: 21px 20px 21px 21px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
-
-
-
+.sec3_con3:last-child{
+    margin-bottom: 0;
+}
+.sec3_con3:hover{
+    background: #FAFAFC;
+    border: 1px solid rgba(202, 204, 209, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.sec3_c1{
+    padding: 21px 20px;
+}
+.sec3_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+    color: #45525B;
+}
+.sec3_t{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6F7278;
+}
+/* section4 */
+.section4{
+    background: url(../img/bg2.png) no-repeat center center /cover;
+    height: 600px;
+}
