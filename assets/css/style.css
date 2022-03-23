@@ -40,6 +40,7 @@ header{
 }
 .header_wr a:hover{
     color: orange;
+    transition: 0.5s;
 }
 /* section1 */
 .section1{
@@ -264,6 +265,9 @@ header{
 }
 .section5_con3:last-of-type{
     margin-right: 0px;
+}
+.section5_con3:hover{
+    cursor: pointer;
 }
 .section5_t{
     padding-top: 20px;
@@ -499,6 +503,10 @@ header{
 .section8_btn:last-child{
     margin-right: 0;
 }
+.section8_btn:hover{
+    color: orange;
+    transition: 0.5s;
+}
 /* footer */
 footer{
     background: #292C32;
@@ -529,6 +537,10 @@ footer{
     line-height: 22px;
     color: #FFFFFF;
     padding-bottom: 9px;
+}
+.footer_t:hover{
+    color: orange;
+    transition: 0.5s;
 }
 .footer_con3{
     margin-right: 16px;
@@ -570,11 +582,6 @@ footer{
     padding: 8px;
     margin: -80px;
 }
-
-
-
-
-
 .footer_con2{
     display: flex;
     align-items: center;   
@@ -588,6 +595,9 @@ footer{
 }
 .footer_conl a{
     padding-right: 20px;
+}
+.footer_conl img:hover{
+    transform: scale(1.5,1.5);
 }
 .footer_conl a:last-child{
     padding-right: 0;
